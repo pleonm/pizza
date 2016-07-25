@@ -39,6 +39,9 @@ class ViewController5: UIViewController {
        
     }
 
+    @IBAction func goBack(sender: AnyObject) {
+         self.navigationController?.popViewControllerAnimated(true)
+    }
     /*
     // MARK: - Navigation
 
